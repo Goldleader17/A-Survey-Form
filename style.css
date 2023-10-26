@@ -1,0 +1,103 @@
+form{
+  background-color: dimgray;
+  width: 50%;
+  margin-left: 50%;
+  border-radius: 5%;
+}
+
+#section1, #section2{
+  background-color: rgba(0, 0, 0, 0.434);
+  border: 10px;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 20px;
+}
+
+.margin{
+  padding-top: 20px;
+}
+
+#comments{
+  border-radius: 5px;
+}
+
+h1{
+  margin-left: 35%;
+  color: white;
+}
+
+#title{
+  text-align: center;
+  margin-left: 0;
+}
+
+body{
+  background-image: url(img/wallpaperflare.com_wallpaper\ \(4\).jpg);
+  background-attachment: fixed;
+  opacity: 0.9;
+  width: 100%;
+}
+
+p{
+  font-weight: 900;
+  font-size: x-large;
+  color: white;
+}
+
+.color{
+  width: 20%;
+  background-color: rgb(red, green, blue);
+  font-size: x-large;
+  color: beige;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border: 0;
+  border-radius: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.color:hover{
+  background-color: gray;
+}
+
+#submit{
+  color: rgba(0, 0, 0, 0.731);
+  font-style: italic;
+  font-size: small;
+  cursor: pointer;
+}
+
+.margin{
+  margin-left: 7%;
+}
+
+.width{
+  width: 90%;
+  font-size: medium;
+  color: dimgray;
+}
+
+option{
+  color: dimgray;
+  font-size: medium;
+}
+
+textarea{
+  width: 90%;
+  color: dimgray;
+}
+
+#footer{
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+   
+}
+
+/* For Mobile */
+@media (max-width: 80%) {
+  form {
+    justify-content: center;
+  }
+}
