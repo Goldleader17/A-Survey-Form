@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>survey form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <h1 id="title">GABRIEL'S SURVEY FORM</h1>
+  <h2 id="title">Thank you for taking the time to help us improve the platform</h2>
+
+  <form action=""></form>
+    <section id="section1">
+      <p class="margin">
+        <label for="name" id="nameLabel">
+          Name <br>
+          <input type="text" id="name" size="80" required placeholder="Enter your name here" class="width">
+        </label>
+      </p>
+    
+      <p class="margin">
+        <label for="email" id="emailLabel">
+          Email <br>
+          <input type="email" id="email" size="80" required placeholder="Enter your email here" class="width">
+        </label>
+      </p>
+    
+      <p class="margin">
+        <label for="age" id="ageLabel">
+          Age <br>
+          <input type="number" id="number" min="10" max="90" placeholder="age">
+        </label>
+      </p>
+      <br />
+
+      <p class="margin">
+        Which option best describes your current role? <br>
+        <select name="role" id="role" class="width">
+          <option value="student">Student</option>
+          <option value="full_time_job">Full Time Job</option>
+          <option value="full_time_learner">Full Time Learner</option>
+          <option value="prefer_not_to_say">Prefer Not To Say</option>
+          <option value="other">Other</option>
+        </select>
+      </p>
+    
+      <p class="margin">
+        What is your favourite feature of <em>TutorialsPoint?</em><br>
+        <select name="" id="dropdown" class="width">
+          <option value="challenges">Challenges</option>
+          <option value="project">Project</option>
+          <option value="community">Community</option>
+          <option value="openSource">Open Source</option>
+        </select>
+      </p>
+      <br>
+
+      <p class="margin">
+        Would you recommend <em>TutorialsPoint</em> to a friend? <br>
+        <input type="radio" name="referrel" id="definitely" value="definitely">Definitely <br>
+        <input type="radio" name="referrel" id="maybe" value="maybe">Maybe <br>
+        <input type="radio" name="referrel" id="sure" value="sure">Sure
+      </p>
+    
+      <p class="margin">
+        What would you like to see improved? <br>
+        <input type="checkbox" name="improved" id="FED" value="on"> Front-end Projects <br>
+        <input type="checkbox" name="improved" id="BED" value="on"> Back-end Projects <br>
+        <input type="checkbox" name="improved" id="DV" value="on"> Data Visualization <br>
+        <input type="checkbox" name="improved" id="challenges" value="on"> Challenges <br>
+        <input type="checkbox" name="improved" id="OSC" value="on"> Open Source  Commu  <br>
+        <input type="checkbox" name="improved" id="GHR" value="on"> Gitter Help Rooms <br>
+        <input type="checkbox" name="improved" id="videos" value="on"> Videos <br>
+        <input type="checkbox" name="improved" id="CM" value="on"> City Meetups <br>
+        <input type="checkbox" name="improved" id="wiki" value="on"> Wiki <br>
+        <input type="checkbox" name="improved" id="forum" value="on"> Forum <br>
+        <input type="checkbox" name="improved" id="AC" value="on"> Additional Courses
+      </p>
+      <br>
+    </section>
+            
+
+    <section id="section2">
+      <p class="margin">
+        Any comments or suggestions? <br><br>
+        <textarea name="comments" id="comments" cols="40" rows="10" placeholder="Enter comments here"></textarea>
+        <br>
+        <input type="submit" value="submit" id="submit" class="color">
+      </p>
+    </section>
+  </form>
+  <br>
+
+  <footer id="footer">
+    <p>Copyright © TutorialsPoint 2023. All Rights Reserved</p>
+  </footer>
+</body>
+</html>
